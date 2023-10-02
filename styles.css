@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'Sigmar One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sigmarone/v15/co3DmWZ8kjZuErj9Ta3do6Tpow.ttf) format('truetype');
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(152, 228, 253); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%; 
+    width: 90%;
+     margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#question-container {
+    margin-top: 20px;
+}
+
+#options {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+}

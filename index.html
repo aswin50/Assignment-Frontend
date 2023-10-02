@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Quiz</title>
+    <!-- Font Awesome CSS -->
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<!-- jQuery JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<!-- TweenMax JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+<!-- Underscore JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js'></script>
+</head>
+<body>
+
+    <div class="congrats" style ="display: none;">
+        <h1>Congratulations! your Score is 5/5</h1>
+    </div>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <form id="quiz-form">
+            <div id="question-container">
+                <p id="question"></p>
+                <ul id="options">
+                    <!-- Options will be populated dynamically with JavaScript -->
+                </ul>
+            </div>
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+        <div id="result"></div>
+        <button id="next-btn" style="display: none;">Next</button>
+        <button id = "Retake-btn" style = "display:none;">Retake</button>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
